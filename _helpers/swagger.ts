@@ -7,3 +7,4 @@ const swaggerDocument = YAML.load('./swagger.yaml');
 router.use('/', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 export default router;
+
